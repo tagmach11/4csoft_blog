@@ -15,6 +15,7 @@
         <!-- Sidebar -->
         <aside class="sidebar">
             <div class="sidebar-logo">
+                <div class="version-badge" id="version-badge">v2.0.0</div>
                 <a href="index.html" class="logo-link">
                     <img src="assets/logo_lx2.png" alt="LX2 Logo" class="sidebar-logo-img">
                 </a>
@@ -24,6 +25,10 @@
                 <a href="index.html" class="sidebar-item" data-page="index">
                     홈
                 </a>
+                <a href="insights.html" class="sidebar-item" data-page="insights">
+                    AI 교육기술 
+                </a>
+
                 <a href="features.html" class="sidebar-item active" data-page="features">
                     사용자 중심 학습관리
                 </a>
@@ -32,9 +37,6 @@
                 </a>
                 <a href="tips.html" class="sidebar-item" data-page="tips">
                     가성비의 전문 솔루션
-                </a>
-                <a href="insights.html" class="sidebar-item" data-page="insights">
-                    AI 교육기술 
                 </a>
                 <a href="newsroom.html" class="sidebar-item" data-page="newsroom">
                     뉴스룸
@@ -55,7 +57,7 @@
                 <div class="article-header">
                     <span class="article-badge">교육</span>
                     <div style="margin: 2rem 0; text-align: center;">
-                        <img src="assets/thumbnails/과정정보자동생성.png" alt="과정 정보 자동 생성" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+                        <img src="assets/thumbnails/혁신적인과정관리.png" alt="혁신적인 과정관리" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
                     </div>
                     <h1 class="article-detail-title">과정을 등록하는 일, 이렇게 쉬워도 되나요?</h1>
                     <p class="article-meta">2025년 10월 20일 · LX2</p>
@@ -137,8 +139,15 @@
                     
                     <p><strong>템플릿 기능</strong> 과정 등록 서식을 미리 저장해 두고 반복 사용할 수 있는 기능입니다. 썸네일 이미지를 직접 업로드해 시각적으로 구분할 수도 있죠.</p>
                     
-                    <p><strong>기수 기능</strong> 과정을 '기수별'로 나누어 관리할 수 있습니다. 각 기수별로 시작일, 종료일, 수강 인원, 수료 인원 등이 표시되어 운영자 입장에서 과정을 시간대별로 추적할 수 있습니다.</p>
+                    <p><strong>복사하기 기능</strong> 기존 과정을 그대로 복제하여 새로운 과정을 빠르게 만들 수 있습니다. 비슷한 유형의 교육을 반복 운영할 때 유용합니다.</p>
                 </section>
+
+                <!-- Closing -->
+                <div class="closing-box">
+                    <h2>마무리하며</h2>
+                    <p>LX2의 과정 관리 기능은 복잡한 교육과정 등록 절차를 단 4단계로 줄이고, 템플릿과 복사 기능을 통해 반복 작업의 효율을 극대화했습니다.</p>
+                    <p>더 이상 과정 등록에 많은 시간을 쏟지 않아도 됩니다. LX2와 함께라면, 교육 운영의 핵심은 '빠른 등록'이 아니라 '좋은 콘텐츠'에 집중할 수 있습니다.</p>
+                </div>
 
                 <!-- Closing -->
                 <section class="article-section" id="section-closing">
@@ -173,7 +182,76 @@
         </main>
     </div>
 
+    <!-- Release Notes Modal -->
+    <div id="release-modal" class="release-modal">
+        <div class="release-modal-content">
+            <div class="release-modal-header">
+                <h2>릴리즈 노트</h2>
+                <button class="release-modal-close" id="close-modal">&times;</button>
+            </div>
+            <div class="release-modal-body">
+                <div class="release-version">
+                    <h3>v2.0.0 <span class="release-date">2024.11.10</span></h3>
+                    <div class="release-content">
+                        <h4>🎉 주요 기능</h4>
+                        <ul>
+                            <li>전 기능 MCP 서버 지원 추가</li>
+                            <li>AI 학습 챗봇 기능 강화</li>
+                            <li>실시간 자동 번역 기능 개선</li>
+                            <li>다국어 학생 상담 시스템 업데이트</li>
+                        </ul>
+                        <h4>✨ 개선사항</h4>
+                        <ul>
+                            <li>대시보드 성능 최적화</li>
+                            <li>검색 엔진 속도 향상</li>
+                            <li>UI/UX 전반적인 개선</li>
+                        </ul>
+                        <h4>🐛 버그 수정</h4>
+                        <ul>
+                            <li>과정 관리 화면 오류 수정</li>
+                            <li>수강 신청 시 발생하던 문제 해결</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="release-version">
+                    <h3>v1.5.0 <span class="release-date">2024.09.15</span></h3>
+                    <div class="release-content">
+                        <h4>🎉 주요 기능</h4>
+                        <ul>
+                            <li>AI 매뉴얼 기능 추가</li>
+                            <li>과정 정보 자동 생성 기능</li>
+                            <li>QR 출석 관리 시스템</li>
+                        </ul>
+                        <h4>✨ 개선사항</h4>
+                        <ul>
+                            <li>학습 진도 관리 개선</li>
+                            <li>평가 시스템 안정화</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="release-version">
+                    <h3>v1.0.0 <span class="release-date">2024.06.01</span></h3>
+                    <div class="release-content">
+                        <h4>🎉 초기 릴리즈</h4>
+                        <ul>
+                            <li>LX2 블로그 런칭</li>
+                            <li>핵심 학습 관리 기능</li>
+                            <li>사용자 대시보드</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            initReleaseModal();
+        });
+    </script>
 </body>
 </html>
 

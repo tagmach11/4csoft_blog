@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 통합 개발 및 운영 기록 - LX2 블로그</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <div class="version-badge" id="version-badge">v2.0.0</div>
+                <a href="index.html" class="logo-link">
+                    <img src="assets/logo_lx2.png" alt="LX2 Logo" class="sidebar-logo-img">
+                </a>
+            </div>
+            <h2 class="sidebar-title">블로그</h2>
+            <nav class="sidebar-nav">
+                <a href="index.html" class="sidebar-item" data-page="index">
+                    홈
+                </a>
+                <a href="insights.html" class="sidebar-item" data-page="insights">
+                    AI 교육기술 
+                </a>
+                <a href="features.html" class="sidebar-item" data-page="features">
+                    사용자 중심 학습관리
+                </a>
+                <a href="portfolio.html" class="sidebar-item" data-page="portfolio">
+                    디테일한 교육관리
+                </a>
+                <a href="tips.html" class="sidebar-item" data-page="tips">
+                    가성비의 전문 솔루션
+                </a>
+                <a href="newsroom.html" class="sidebar-item active" data-page="newsroom">
+                    뉴스룸
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Content Area -->
+        <main class="content">
+            <div class="search-box">
+                <img src="assets/돋보기.png" alt="검색" class="search-icon">
+                <input type="text" placeholder="검색" class="search-input">
+            </div>
+
+            <div class="article-layout">
+                <!-- Article Content -->
+                <article class="article-detail">
+                    <div class="article-header">
+                        <span class="article-badge">개발 기록</span>
+                        <h1 class="article-detail-title">2025 통합 개발 및 운영 기록</h1>
+                        <p class="article-meta">2024~2025년 · LX2 개발팀</p>
+                    </div>
+
+                    <div class="article-section">
+                        <p>LX2는 2025년 한 해 동안 플랫폼의 핵심 구조, 보안 체계, 그리고 사용자 경험(UI/UX)을 전면적으로 개편했습니다.</p>
+                        <p>이 기록은 2024년 말 AOF5 업그레이드 착수부터 2025년 말 최신 버전까지의 주요 개발 및 운영 일지를 정리한 공식 뉴스룸 아카이브입니다.</p>
+                    </div>
+
+                    <!-- 2024년 섹션 -->
+                    <div class="article-section" id="section-2024">
+                        <h2>2024년 – 시스템 업그레이드의 시작</h2>
+                        
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">10.01</div>
+                            <div class="feature-content-large">
+                                <h3>AOF5 업그레이드 착수</h3>
+                                <p>정래혁 부장은 LX2의 차세대 개발환경 업그레이드를 공식 발표했습니다. 이번 프로젝트는 JDK·eGovFramework·Spring Framework 등 핵심 기반 기술을 최신 버전으로 이행하여 LX2의 안정성과 보안성을 강화하기 위한 중대한 작업이었습니다.</p>
+                            </div>
+                        </div>
+
+                        <div class="highlight-box">
+                            <p><strong>업그레이드 항목</strong></p>
+                            <ul style="margin-top: 1rem; line-height: 1.8;">
+                                <li>JDK: 1.8 → 17</li>
+                                <li>전자정부프레임워크(eGov): 3.10.0 → 4.3.1</li>
+                                <li>Spring Framework: 4.3.25 → 5.3.27</li>
+                                <li>Spring Security: 3.0.5 → 5.8.13</li>
+                                <li>AOF: 4.3.1 → 5.0.0</li>
+                            </ul>
+                        </div>
+
+                        <p>LX2는 AOF 핵심 모듈을 완전히 이식하고, 라이브러리 호환성 검증과 커스터마이징을 병행하여 2025년 개편의 기반을 마련했습니다.</p>
+                    </div>
+
+                    <!-- 2025년 섹션 -->
+                    <div class="article-section" id="section-2025">
+                        <h2>2025년 – 플랫폼의 재탄생</h2>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">01.24</div>
+                            <div class="feature-content-large">
+                                <h3>자체 암호모듈 검증 추진</h3>
+                                <p>배정훈 대표는 LX2의 보안 경쟁력 강화를 위해 'LX2Crypto V1.0' 자체 암호모듈 개발을 공식 제안했습니다. 이 모듈은 별도의 상용 DB 암호화 솔루션 없이도 시스템 내부에서 암호화를 수행할 수 있도록 설계되었습니다.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">03.31</div>
+                            <div class="feature-content-large">
+                                <h3>강의실 UI/UX 전면 개편</h3>
+                                <p>강인복 차장이 주도한 신규 강의실 화면 리뉴얼이 완료되었습니다. AI 학습보조 기능과 다크테마, 우측 보드형 구조를 도입하여 학습 집중도와 몰입감을 높였습니다.</p>
+                                <div class="highlight-box" style="margin-top: 1rem;">
+                                    <p><strong>개편 주요 포인트</strong></p>
+                                    <ul style="margin-top: 0.5rem;">
+                                        <li>강의실 메인: 학습 현황 중심 레이아웃</li>
+                                        <li>마이크로러닝 상세: 새로운 목차 구조</li>
+                                        <li>학습하기 화면: 반응형·보드형 UI 적용</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">04.28</div>
+                            <div class="feature-content-large">
+                                <h3>콘텐츠 등록/수정 API 개발 완료</h3>
+                                <p>김명섭 차장이 주도한 Vimeo·YouTube 자동 연동 API가 개발 완료되었습니다. 콘텐츠 등록 및 수정이 JSON 기반으로 자동화되며, AccessToken을 이용한 보안 구조도 적용되었습니다.</p>
+                                <div class="highlight-box" style="margin-top: 1rem;">
+                                    <p><strong>API 예시</strong></p>
+                                    <ul style="margin-top: 0.5rem;">
+                                        <li>등록: /api/lcms/create/vimeo/json.do</li>
+                                        <li>수정: /api/lcms/update/youtube/json.do</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">05</div>
+                            <div class="feature-content-large">
+                                <h3>사용자 중심 UI 개선</h3>
+                                <p><strong>5월 7~14일:</strong> 홈페이지 하단(UI Footer) 리뉴얼 완료. '사용방법' 버튼 추가, 블로그·인스타그램 연동, 배너 디자인 개선</p>
+                                <p><strong>5월 21일:</strong> 팝업 자동 정렬 기능 요청 (타일형·계층형 구조)</p>
+                                <p><strong>5월 21일:</strong> 과정 공유하기 기능 개선 - QR코드 자동 생성, URL 복사 인터페이스 강화</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">05.29</div>
+                            <div class="feature-content-large">
+                                <h3>LX2Crypto 개발 현황 보고</h3>
+                                <p>정래혁 부장이 SHA2·SHA3 해시함수, HMAC, CMAC 모듈 구현 완료 보고. KISA·TTA 검증 절차에 대비한 내부 테스트 진행.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6월 섹션 -->
+                    <div class="article-section" id="section-june">
+                        <h2>6월 – 데이터 및 검색엔진 전면 개편</h2>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">06.13</div>
+                            <div class="feature-content-large">
+                                <h3>학습데이터 API 구축</h3>
+                                <p>학습자별 진도율, 기간, 상태 실시간 조회 가능</p>
+                                <div class="highlight-box" style="margin-top: 1rem;">
+                                    <ul>
+                                        <li>/api/active/study/result/json.do</li>
+                                        <li>/api/active/result/json.do</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">06.17</div>
+                            <div class="feature-content-large">
+                                <h3>Elasticsearch → OpenSearch 2.8.0 전환 완료</h3>
+                                <p>Dashboards·Logstash OSS 연동, Nori 형태소 분석기 적용</p>
+                                <div class="highlight-box" style="margin-top: 1rem;">
+                                    <p><strong>LX2 검색 인덱스 예시</strong></p>
+                                    <ul style="margin-top: 0.5rem;">
+                                        <li>교과과정: search_course_active</li>
+                                        <li>오픈러닝: search_open_lecture</li>
+                                        <li>공지사항: search_board_notice</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 7월 섹션 -->
+                    <div class="article-section" id="section-july">
+                        <h2>7월 – 보안 체계 강화</h2>
+                        
+                        <div class="feature-list">
+                            <div class="feature-item" style="background: white; border-left: 4px solid #1E40AF;">
+                                <div class="feature-number">07.03</div>
+                                <div class="feature-content">
+                                    <h3>KISA 보안약점 조치 적용</h3>
+                                </div>
+                            </div>
+
+                            <div class="feature-item" style="background: white; border-left: 4px solid #1E40AF;">
+                                <div class="feature-number">07.04</div>
+                                <div class="feature-content">
+                                    <h3>불필요 파일 정리</h3>
+                                    <p>/web/src/amcharts 디렉토리 삭제</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item" style="background: white; border-left: 4px solid #1E40AF;">
+                                <div class="feature-number">07.07</div>
+                                <div class="feature-content">
+                                    <h3>세션 충돌 문제 해결</h3>
+                                </div>
+                            </div>
+
+                            <div class="feature-item" style="background: white; border-left: 4px solid #1E40AF;">
+                                <div class="feature-number">07.09</div>
+                                <div class="feature-content">
+                                    <h3>세션클러스터링 구조 조정</h3>
+                                </div>
+                            </div>
+
+                            <div class="feature-item" style="background: white; border-left: 4px solid #1E40AF;">
+                                <div class="feature-number">07.11</div>
+                                <div class="feature-content">
+                                    <h3>암호모듈 검증비용(약 1억 원)으로 인증 절차 보류</h3>
+                                </div>
+                            </div>
+
+                            <div class="feature-item" style="background: white; border-left: 4px solid #1E40AF;">
+                                <div class="feature-number">07.11</div>
+                                <div class="feature-content">
+                                    <h3>카카오·네이버·구글 OAuth 인증키 운영 반영</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 10월 섹션 -->
+                    <div class="article-section" id="section-oct">
+                        <h2>10월 – 신규 기관 맞춤 기능 반영</h2>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">10.27</div>
+                            <div class="feature-content-large">
+                                <h3>스포츠윤리센터 기능 대응</h3>
+                                <p>검색 기능, 수료증 일괄 출력 기능 추가</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">10.28</div>
+                            <div class="feature-content-large">
+                                <h3>통합검색 퍼블 요청</h3>
+                            </div>
+                        </div>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">10.29</div>
+                            <div class="feature-content-large">
+                                <h3>OTP 2차 인증 기능 개발 적용</h3>
+                                <p>인증·설정·완료 화면 반영</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 11월 섹션 -->
+                    <div class="article-section" id="section-nov">
+                        <h2>11월 – 통합검색 및 홍보영상 기능 강화</h2>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">11.01</div>
+                            <div class="feature-content-large">
+                                <h3>통합검색 기능 정식 반영</h3>
+                                <p>추천검색 포함</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">11.06</div>
+                            <div class="feature-content-large">
+                                <h3>UI 오류 수정 및 시안별 점검</h3>
+                            </div>
+                        </div>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">11.06</div>
+                            <div class="feature-content-large">
+                                <h3>비메오 홍보영상 계정 공유</h3>
+                            </div>
+                        </div>
+
+                        <div class="feature-item-large">
+                            <div class="feature-icon-large">11.07</div>
+                            <div class="feature-content-large">
+                                <h3>GLightbox 기반 홍보영상 팝업 기능 적용</h3>
+                                <p>클릭 시 전체화면 동영상 재생 지원, 공통 CSS/JS 구조 추가, 템플릿-A '강의영상 한 컷'에도 확장 적용 가능</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 핵심 기술 정리 -->
+                    <div class="article-section" id="section-tech">
+                        <h2>LX2 핵심 기술 정리</h2>
+
+                        <div class="context-grid">
+                            <div class="context-item">
+                                <h3>보안 강화</h3>
+                                <p>KISA 보안약점 조치, 관리자 비밀번호 강화, 불필요 파일 정리</p>
+                            </div>
+
+                            <div class="context-item">
+                                <h3>검색엔진 재구성</h3>
+                                <p>Elasticsearch → OpenSearch 완전 전환</p>
+                            </div>
+
+                            <div class="context-item">
+                                <h3>API 확장</h3>
+                                <p>콘텐츠 등록·수정 API, 학습데이터 조회 API 완성</p>
+                            </div>
+
+                            <div class="context-item">
+                                <h3>UI/UX 혁신</h3>
+                                <p>OTP 인증화면, 통합검색, 공유하기, 하단 버튼, 홍보영상 팝업 등</p>
+                            </div>
+
+                            <div class="context-item">
+                                <h3>플랫폼 업그레이드</h3>
+                                <p>AOF5 기반 구조 전환, LX2Parts 릴리즈, Git 구조 개선</p>
+                            </div>
+
+                            <div class="context-item">
+                                <h3>암호모듈 개발</h3>
+                                <p>LX2Crypto 구현 및 검증 준비, 비용 이슈로 인증 보류</p>
+                            </div>
+
+                            <div class="context-item">
+                                <h3>운영 안정화</h3>
+                                <p>세션 충돌 해결, 세션클러스터링 구조 개선</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 마무리 -->
+                    <div class="closing-box">
+                        <h2>마무리</h2>
+                        <p>LX2는 지난 1년간 <strong>"안정성, 보안성, 확장성, 사용자 경험"</strong> 이라는 네 가지 핵심가치를 중심으로 시스템을 재정비했습니다.</p>
+                        <p>AOF5 기반 아키텍처 전환, OpenSearch 기반의 검색엔진, 강화된 API와 보안 체계, 그리고 영상·AI 중심의 직관적인 UI까지 — LX2는 기술과 사용자 경험이 조화를 이루는 지능형 학습관리시스템으로 한 단계 도약했습니다.</p>
+                        <p>앞으로도 LX2는 공공기관과 기업교육 시장에서 검증된 품질과 기술력을 바탕으로 지속적인 업데이트와 혁신을 이어가겠습니다.</p>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="article-footer">
+                        <a href="newsroom.html" class="back-button">← 뉴스룸으로 돌아가기</a>
+                    </div>
+                </article>
+
+                <!-- Table of Contents -->
+                <aside class="table-of-contents">
+                    <div class="toc-header">
+                        <h3>목차</h3>
+                    </div>
+                    <nav class="toc-nav">
+                        <a href="#section-2024" class="toc-link">2024년 시작</a>
+                        <a href="#section-2025" class="toc-link">2025년 재탄생</a>
+                        <a href="#section-june" class="toc-link">6월 검색엔진 개편</a>
+                        <a href="#section-july" class="toc-link">7월 보안 강화</a>
+                        <a href="#section-oct" class="toc-link">10월 맞춤 기능</a>
+                        <a href="#section-nov" class="toc-link">11월 통합검색</a>
+                        <a href="#section-tech" class="toc-link">핵심 기술 정리</a>
+                    </nav>
+                </aside>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize TOC active state
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.article-section[id]');
+            const tocLinks = document.querySelectorAll('.toc-link');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.getAttribute('id');
+                        tocLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href') === '#' + id) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }, {
+                rootMargin: '-20% 0px -70% 0px',
+                threshold: 0
+            });
+            
+            sections.forEach(section => observer.observe(section));
+        });
+    </script>
+
+    <!-- Release Notes Modal -->
+    <div id="release-modal" class="release-modal">
+        <div class="release-modal-content">
+            <div class="release-modal-header">
+                <h2>릴리즈 노트</h2>
+                <button class="release-modal-close" id="close-modal">&times;</button>
+            </div>
+            <div class="release-modal-body">
+                <div class="release-version">
+                    <h3>v2.0.0 <span class="release-date">2024.11.10</span></h3>
+                    <div class="release-content">
+                        <h4>🎉 주요 기능</h4>
+                        <ul>
+                            <li>전 기능 MCP 서버 지원 추가</li>
+                            <li>AI 학습 챗봇 기능 강화</li>
+                            <li>실시간 자동 번역 기능 개선</li>
+                            <li>다국어 학생 상담 시스템 업데이트</li>
+                        </ul>
+                        <h4>✨ 개선사항</h4>
+                        <ul>
+                            <li>대시보드 성능 최적화</li>
+                            <li>검색 엔진 속도 향상</li>
+                            <li>UI/UX 전반적인 개선</li>
+                        </ul>
+                        <h4>🐛 버그 수정</h4>
+                        <ul>
+                            <li>과정 관리 화면 오류 수정</li>
+                            <li>수강 신청 시 발생하던 문제 해결</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="release-version">
+                    <h3>v1.5.0 <span class="release-date">2024.09.15</span></h3>
+                    <div class="release-content">
+                        <h4>🎉 주요 기능</h4>
+                        <ul>
+                            <li>AI 매뉴얼 기능 추가</li>
+                            <li>과정 정보 자동 생성 기능</li>
+                            <li>QR 출석 관리 시스템</li>
+                        </ul>
+                        <h4>✨ 개선사항</h4>
+                        <ul>
+                            <li>학습 진도 관리 개선</li>
+                            <li>평가 시스템 안정화</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="release-version">
+                    <h3>v1.0.0 <span class="release-date">2024.06.01</span></h3>
+                    <div class="release-content">
+                        <h4>🎉 초기 릴리즈</h4>
+                        <ul>
+                            <li>LX2 블로그 런칭</li>
+                            <li>핵심 학습 관리 기능</li>
+                            <li>사용자 대시보드</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            initReleaseModal();
+        });
+    </script>
+</body>
+</html>
+
+</html>
+
