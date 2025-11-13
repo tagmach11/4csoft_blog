@@ -10,9 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Main Content -->
     <div class="main-container">
-        <!-- Sidebar -->
         <aside class="sidebar">
             <div class="sidebar-logo">
                 <div class="version-badge" id="version-badge">v2.0.0</div>
@@ -22,230 +20,76 @@
             </div>
             <h2 class="sidebar-title">블로그</h2>
             <nav class="sidebar-nav">
-                <a href="index.html" class="sidebar-item" data-page="index">
-                    홈
-                </a>
-                <a href="insights.html" class="sidebar-item" data-page="insights">
-                    AI 교육기술 
-                </a>
-                <a href="features.html" class="sidebar-item" data-page="features">
-                    사용자 중심 학습관리
-                </a>
-                <a href="portfolio.html" class="sidebar-item" data-page="portfolio">
-                    디테일한 교육관리
-                </a>
-                <a href="tips.html" class="sidebar-item" data-page="tips">
-                    가성비의 전문 솔루션
-                </a>
-                <a href="newsroom.html" class="sidebar-item" data-page="newsroom">
-                    뉴스룸
-                </a>
-                <a href="dev-update.html" class="sidebar-item active" data-page="dev-update">
-                    개발 업데이트
-                </a>
+                <a href="index.html" class="sidebar-item">홈</a>
+                <a href="insights.html" class="sidebar-item">AI 교육기술</a>
+                <a href="features.html" class="sidebar-item">사용자 중심 학습관리</a>
+                <a href="portfolio.html" class="sidebar-item">디테일한 교육관리</a>
+                <a href="tips.html" class="sidebar-item">가성비의 전문 솔루션</a>
+                <a href="newsroom.html" class="sidebar-item">뉴스룸</a>
+                <a href="dev-update.html" class="sidebar-item active">개발 업데이트</a>
             </nav>
         </aside>
-
-        <!-- Content Area -->
         <main class="content">
             <div class="search-box">
                 <img src="assets/돋보기.png" alt="검색" class="search-icon">
                 <input type="text" placeholder="검색" class="search-input">
             </div>
-
             <div class="article-layout">
-                <!-- Article Header -->
                 <article class="article-detail">
                 <div class="article-header">
                     <span class="article-badge">기능 개선</span>
+                    <div style="margin: 2rem 0; text-align: center;">
+                        <img src="assets/articles/신규기관맞춤기능반영.png" alt="신규 기관 맞춤 기능 반영" style="width: 775px; max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+                    </div>
                     <h1 class="article-detail-title">신규 기관 맞춤 기능 반영</h1>
                     <p class="article-meta">2025년 10월 · LX2</p>
                 </div>
-
-                <!-- Main Introduction -->
                 <section class="article-section" id="section-intro">
                     <h2>기관별 요구사항에 맞춘 맞춤형 개선</h2>
-                    <p style="font-size: 1.1rem; line-height: 1.8; color: #333;">LX2는 기관별 운영 환경과 요구사항에 맞춘 맞춤형 기능 개선 작업을 진행했습니다.</p>
-                    
-                    <h3 style="color: #4169E1; margin-top: 2.5rem; margin-bottom: 1.5rem; text-align: center;">핵심 개선 영역</h3>
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
-                        <div style="background: white; padding: 1.5rem; border-radius: 12px; border-left: 5px solid #4169E1; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-align: center;">
-                            <h4 style="color: #4169E1; margin: 0 0 0.5rem 0; font-size: 1.1rem;">검색 기능 강화</h4>
-                            <p style="font-size: 0.9rem; color: #666; margin: 0;">조건별 데이터 검색</p>
-                        </div>
-                        <div style="background: white; padding: 1.5rem; border-radius: 12px; border-left: 5px solid #4169E1; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-align: center;">
-                            <h4 style="color: #4169E1; margin: 0 0 0.5rem 0; font-size: 1.1rem;">수료증 출력</h4>
-                            <p style="font-size: 0.9rem; color: #666; margin: 0;">일괄 출력 기능</p>
-                        </div>
-                        <div style="background: white; padding: 1.5rem; border-radius: 12px; border-left: 5px solid #4169E1; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-align: center;">
-                            <h4 style="color: #4169E1; margin: 0 0 0.5rem 0; font-size: 1.1rem;">OTP 인증</h4>
-                            <p style="font-size: 0.9rem; color: #666; margin: 0;">2차 인증 보안 강화</p>
-                        </div>
-                    </div>
-                    
-                    <p>이번 업데이트는 스포츠윤리센터를 비롯한 공공기관 프로젝트 대응을 중심으로, 검색 기능, 수료증 출력, OTP 인증 등 실무 중심 기능들이 새롭게 반영되었습니다.</p>
+                    <p>LX2는 기관별 운영 환경과 요구사항에 맞춘 맞춤형 기능 개선 작업을 진행했습니다. 이번 업데이트는 스포츠윤리센터를 비롯한 공공기관 프로젝트 대응을 중심으로, 검색 기능, 수료증 출력, OTP 인증 등 실무 중심 기능들이 새롭게 반영되었습니다.</p>
                 </section>
-
-                <!-- Feature 1: Sports Ethics Center -->
                 <section class="article-section" id="section-sports">
                     <h2>스포츠윤리센터 기능 대응</h2>
-                    <p style="font-size: 0.9rem; color: #999; margin-bottom: 1rem;">2025년 10월 27일</p>
-                    
-                    <div style="background: linear-gradient(135deg, #4169E115 0%, #4facfe15 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0;">
-                        <h3 style="color: #4169E1; margin-top: 0;">운영 효율성과 관리 편의성 향상</h3>
-                        <p style="font-size: 1.05rem; line-height: 1.8;">스포츠윤리센터의 시스템 요구에 맞춰 검색 기능과 수료증 일괄 출력 기능이 추가되었습니다.</p>
-                    </div>
-                    
-                    <h3 style="color: #4169E1; margin-top: 2rem;">주요 추가 기능</h3>
-                    <div style="display: grid; gap: 1.5rem; margin-top: 2rem;">
-                        <div style="background: white; padding: 2rem; border-radius: 12px; border-left: 5px solid #4169E1; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-                            <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
-                                <div style="background: #4169E1; color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold; flex-shrink: 0;">1</div>
-                                <div>
-                                    <h4 style="margin: 0 0 0.5rem 0; color: #4169E1;">고급 검색 기능</h4>
-                                    <p style="margin: 0; color: #666; line-height: 1.7;">과정별, 학습자별 조건에 따라 데이터를 검색하여 효율적인 관리 가능</p>
-
-
-                        <div style="background: white; padding: 2rem; border-radius: 12px; border-left: 5px solid #4169E1; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-                            <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
-                                <div style="background: #4169E1; color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold; flex-shrink: 0;">2</div>
-                                <div>
-                                    <h4 style="margin: 0 0 0.5rem 0; color: #4169E1;">수료증 일괄 출력</h4>
-                                    <p style="margin: 0; color: #666; line-height: 1.7;">수료 대상 학습자의 수료증을 한 번에 출력하여 운영 효율성 향상</p>
-
-                    
-                    <div class="highlight-box" style="margin-top: 2rem; background: white; border-left: 4px solid #4169E1;">
-                        <p><strong style="color: #4169E1;">관리자 편의성</strong></p>
-                        <ul style="margin-top: 1rem; line-height: 2;">
-                            <li>조건별 검색으로 데이터 관리 효율화</li>
-                            <li>일괄 처리 기능으로 업무 시간 단축</li>
-                            <li>기관별 맞춤 워크플로우 지원</li>
-                        </ul>
-                    </div>
+                    <p style="font-size: 0.9rem; color: #999;">2025년 10월 27일</p>
+                    <h3>운영 효율성과 관리 편의성 향상</h3>
+                    <p>스포츠윤리센터의 시스템 요구에 맞춰 검색 기능과 수료증 일괄 출력 기능이 추가되었습니다.</p>
+                    <h3>주요 추가 기능</h3>
+                    <p><strong>고급 검색 기능</strong> - 과정별, 학습자별 조건에 따라 데이터를 검색하여 효율적인 관리가 가능합니다.</p>
+                    <p><strong>수료증 일괄 출력</strong> - 수료 대상 학습자의 수료증을 한 번에 출력하여 운영 효율성이 향상되었습니다.</p>
                 </section>
-
-                <!-- Feature 2: Integrated Search -->
                 <section class="article-section" id="section-search">
                     <h2>통합검색 퍼블 요청</h2>
-                    <p style="font-size: 0.9rem; color: #999; margin-bottom: 1rem;">2025년 10월 28일</p>
-                    
-                    <div style="background: white; padding: 2rem; border-radius: 12px; border-left: 5px solid #4169E1; box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin: 2rem 0;">
-                        <h3 style="color: #4169E1; margin-top: 0;">기관별 템플릿 일관성 유지</h3>
-                        <p style="font-size: 1.05rem; line-height: 1.8;">기관별 템플릿 간 기능 일관성을 유지하기 위해 통합검색 기능이 누락된 시안(B, C)에 대한 퍼블리싱 반영 요청이 이루어졌습니다.</p>
-                    </div>
-                    
-                    <div style="display: flex; gap: 1.5rem; margin-top: 2rem; flex-wrap: wrap;">
-                        <div style="flex: 1; min-width: 250px; background: linear-gradient(135deg, #4169E115 0%, #4facfe15 100%); padding: 2rem; border-radius: 12px; border-left: 4px solid #4169E1;">
-                            <h4 style="color: #4169E1; margin-top: 0;">개선 목표</h4>
-                            <ul style="line-height: 2; color: #666;">
-                                <li>LX2 전반의 검색 환경 통일</li>
-                                <li>사용자 경험(UI/UX) 개선</li>
-                                <li>템플릿 간 일관성 확보</li>
-                            </ul>
-                        </div>
-                        <div style="flex: 1; min-width: 250px; background: linear-gradient(135deg, #4169E115 0%, #4facfe15 100%); padding: 2rem; border-radius: 12px; border-left: 4px solid #4169E1;">
-                            <h4 style="color: #4169E1; margin-top: 0;">기대 효과</h4>
-                            <ul style="line-height: 2; color: #666;">
-                                <li>모든 기관의 통합검색 기능 지원</li>
-                                <li>통일된 검색 인터페이스 제공</li>
-                                <li>사용자 학습 곡선 최소화</li>
-                            </ul>
-                        </div>
-                    </div>
+                    <p style="font-size: 0.9rem; color: #999;">2025년 10월 28일</p>
+                    <h3>기관별 템플릿 일관성 유지</h3>
+                    <p>기관별 템플릿 간 기능 일관성을 유지하기 위해 통합검색 기능이 누락된 시안(B, C)에 대한 퍼블리싱 반영 요청이 이루어졌습니다. 이를 통해 LX2 전반의 검색 환경이 통일되고, 사용자 경험(UI/UX)이 개선되었습니다.</p>
                 </section>
-
-                <!-- Feature 3: OTP -->
                 <section class="article-section" id="section-otp">
-                    <h2>OTP 2차 인증 기능 개발 적용</h2>
-                    <p style="font-size: 0.9rem; color: #999; margin-bottom: 1rem;">2025년 10월 29일</p>
-                    
-                    <div style="background: linear-gradient(135deg, #4169E115 0%, #4facfe15 100%); padding: 2rem; border-radius: 12px; margin: 2rem 0;">
-                        <h3 style="color: #4169E1; margin-top: 0;">계정 보안 강화</h3>
-                        <p style="font-size: 1.05rem; line-height: 1.8;">보안 강화를 위해 OTP(One-Time Password) 2차 인증 기능이 개발서버에 반영되었습니다. 인증 절차는 단계별로 구성되어 있으며, 인증 화면, 설정 화면, 설정 완료 화면이 모두 적용되었습니다.</p>
-                    </div>
-                    
-                    <h3 style="color: #4169E1; margin-top: 2rem;">인증 단계</h3>
-                    <div style="display: grid; gap: 1.5rem; margin-top: 2rem;">
-                        <div style="background: white; padding: 2rem; border-radius: 12px; border-left: 5px solid #4169E1; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-                            <div style="display: flex; align-items: center; gap: 1.5rem;">
-                                <div style="background: #4169E1; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold; flex-shrink: 0;">1</div>
-                                <div>
-                                    <h4 style="margin: 0 0 0.5rem 0; color: #4169E1;">인증 화면</h4>
-                                    <p style="margin: 0; color: #666;">로그인 시 OTP 코드 입력</p>
-
-
-                        <div style="background: white; padding: 2rem; border-radius: 12px; border-left: 5px solid #4169E1; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-                            <div style="display: flex; align-items: center; gap: 1.5rem;">
-                                <div style="background: #4169E1; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold; flex-shrink: 0;">2</div>
-                                <div>
-                                    <h4 style="margin: 0 0 0.5rem 0; color: #4169E1;">설정 화면</h4>
-                                    <p style="margin: 0; color: #666;">OTP 앱 연동 및 초기 설정</p>
-
-
-                        <div style="background: white; padding: 2rem; border-radius: 12px; border-left: 5px solid #4169E1; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-                            <div style="display: flex; align-items: center; gap: 1.5rem;">
-                                <div style="background: #4169E1; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold; flex-shrink: 0;">3</div>
-                                <div>
-                                    <h4 style="margin: 0 0 0.5rem 0; color: #4169E1;">설정 완료 화면</h4>
-                                    <p style="margin: 0; color: #666;">인증 설정 완료 확인</p>
-
-                    
-                    <div style="background: white; padding: 2rem; border-radius: 12px; margin-top: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-                        <h4 style="color: #4169E1; margin-top: 0;">보안 강화 효과</h4>
-                        <div style="display: grid; gap: 1rem; margin-top: 1.5rem;">
-                            <div style="padding: 1rem; background: #f8f9fa; border-radius: 8px; border-left: 3px solid #4169E1;">
-                                <p style="margin: 0; line-height: 1.7;"><strong style="color: #4169E1;">사용자:</strong> 추가 인증 단계로 계정 보안 강화</p>
-                            </div>
-                            <div style="padding: 1rem; background: #f8f9fa; border-radius: 8px; border-left: 3px solid #4169E1;">
-                                <p style="margin: 0; line-height: 1.7;"><strong style="color: #4169E1;">기관:</strong> 기관 단위의 보안정책 체계적 적용</p>
-
+                    <h2>관리자 로그인 OTP 인증 기능 개발</h2>
+                    <p style="font-size: 0.9rem; color: #999;">2025년 10월 30일</p>
+                    <h3>2차 인증을 통한 보안 강화</h3>
+                    <p>LX2 관리자 계정에 OTP(One-Time Password) 기반의 2차 인증 기능이 새롭게 추가되었습니다. 이를 통해 비밀번호 유출이나 무단 접근 위협을 효과적으로 차단할 수 있습니다.</p>
+                    <p>Google OTP, 인증키 QR 자동 생성, 로그인 시 OTP 검증 등의 기능이 포함되어 있으며, 공공기관 및 보안 요구가 높은 기관에서 안전하게 사용할 수 있습니다.</p>
                 </section>
-
-                <!-- Closing -->
-                <div style="background: linear-gradient(135deg, #4169E1 0%, #4facfe 100%); color: white; padding: 3rem 2rem; border-radius: 16px; margin-top: 3rem; text-align: center;">
-                    <h2 style="color: white; font-size: 1.8rem; margin-top: 0;">다양한 기관 환경에 유연하게 대응</h2>
-                    <p style="font-size: 1.1rem; line-height: 1.8; margin: 1.5rem 0;">이번 신규 기관 맞춤 기능 반영은 LX2가 다양한 기관 환경에 유연하게 대응하기 위한<br>기술적 확장 과정의 일환입니다.</p>
-                    <p style="font-size: 1.05rem; line-height: 1.8; opacity: 0.95;">앞으로도 LX2는 공공기관과 기업 교육 현장에서 요구되는<br>운영 기능과 보안 요소를 지속적으로 개선해 나갈 예정입니다.</p>
-                </div>
-
-                <!-- Tags -->
-                <div style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid #e9ecef;">
-                    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-                        <span style="background: #f8f9fa; color: #4169E1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.875rem; font-weight: 500;">#기관맞춤기능</span>
-                        <span style="background: #f8f9fa; color: #4169E1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.875rem; font-weight: 500;">#OTP인증</span>
-                        <span style="background: #f8f9fa; color: #4169E1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.875rem; font-weight: 500;">#통합검색</span>
-                        <span style="background: #f8f9fa; color: #4169E1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.875rem; font-weight: 500;">#수료증출력</span>
-                        <span style="background: #f8f9fa; color: #4169E1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.875rem; font-weight: 500;">#LX2업데이트</span>
-                    </div>
-                </div>
-
-                <!-- Back Button -->
+                <section class="article-section" id="section-closing">
+                    <h2>기관별 요구에 맞춘 유연한 확장</h2>
+                    <p>LX2의 맞춤형 기능 개발은 각 기관의 운영 특성과 요구를 반영하여, 실제 업무 환경에 최적화된 기능을 제공합니다. 앞으로도 LX2는 기관별 요구사항을 빠르게 분석하고 반영하여, 사용자 맞춤형 교육 플랫폼으로서의 역할을 강화해 나갈 것입니다.</p>
+                </section>
                 <div class="article-footer">
-                    <a href="newsroom.html" class="back-button">← 뉴스룸으로 돌아가기</a>
+                    <a href="dev-update.html" class="back-button">← 개발 업데이트로 돌아가기</a>
                 </div>
                 </article>
-
-                <!-- Table of Contents -->
                 <aside class="table-of-contents">
-                    <div class="toc-header">
-                        <h3>목차</h3>
-                    </div>
+                    <div class="toc-header"><h3>목차</h3></div>
                     <nav class="toc-nav">
                         <a href="#section-intro" class="toc-link">기관별 요구사항에 맞춘 맞춤형 개선</a>
                         <a href="#section-sports" class="toc-link">스포츠윤리센터 기능 대응</a>
                         <a href="#section-search" class="toc-link">통합검색 퍼블 요청</a>
-                        <a href="#section-otp" class="toc-link">OTP 2차 인증 기능 개발 적용</a>
+                        <a href="#section-otp" class="toc-link">관리자 로그인 OTP 인증 기능 개발</a>
                     </nav>
                 </aside>
             </div>
         </main>
-
-
     <script src="articles-data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-

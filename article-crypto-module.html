@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자체 암호모듈 검증 추진 - LX2 블로그</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <div class="version-badge" id="version-badge">v2.0.0</div>
+                <a href="index.html" class="logo-link">
+                    <img src="assets/logo_lx2.png" alt="LX2 Logo" class="sidebar-logo-img">
+                </a>
+            </div>
+            <h2 class="sidebar-title">블로그</h2>
+            <nav class="sidebar-nav">
+                <a href="index.html" class="sidebar-item">홈</a>
+                <a href="insights.html" class="sidebar-item">AI 교육기술</a>
+                <a href="features.html" class="sidebar-item">사용자 중심 학습관리</a>
+                <a href="portfolio.html" class="sidebar-item">디테일한 교육관리</a>
+                <a href="tips.html" class="sidebar-item">가성비의 전문 솔루션</a>
+                <a href="newsroom.html" class="sidebar-item">뉴스룸</a>
+                <a href="dev-update.html" class="sidebar-item active">개발 업데이트</a>
+            </nav>
+        </aside>
+        <main class="content">
+            <div class="search-box">
+                <img src="assets/돋보기.png" alt="검색" class="search-icon">
+                <input type="text" placeholder="검색" class="search-input">
+            </div>
+            <div class="article-layout">
+                <article class="article-detail">
+                <div class="article-header">
+                    <span class="article-badge">보안</span>
+                    <div style="margin: 2rem 0; text-align: center;">
+                        <img src="assets/articles/자체암호모듈검증추진.png" alt="자체 암호모듈 검증 추진" style="width: 775px; max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+                    </div>
+                    <h1 class="article-detail-title">자체 암호모듈 검증 추진</h1>
+                    <p class="article-meta">2025년 7월 11일 · LX2</p>
+                </div>
+
+                <section class="article-section" id="section-intro">
+                    <h2>LX2Crypto V1.0 개발 추진</h2>
+                    <p>LX2는 플랫폼의 보안 경쟁력을 한 단계 끌어올리기 위해 'LX2Crypto V1.0'이라는 자체 암호모듈 개발을 추진했습니다. 이 프로젝트는 공공기관과 기업 환경에서 요구되는 데이터 보호 수준을 내재화하고, 별도의 외부 암호화 솔루션 없이도 안정적인 보안 구조를 확보하기 위한 전략적 조치입니다.</p>
+                </section>
+
+                <section class="article-section" id="section-internal">
+                    <h2>내부 암호화 구조로 전환되는 LX2</h2>
+                    <p>기존 대부분의 학습관리시스템은 데이터베이스(DB) 암호화를 위해 외부 상용 솔루션에 의존해왔습니다. 그러나 이러한 구조는 비용과 유지보수 측면에서 비효율적이며, 시스템 성능 저하와 연동 문제를 야기할 수 있습니다.</p>
+                    <p>LX2는 이러한 한계를 극복하기 위해 시스템 내부에서 암호화·복호화를 직접 수행하는 구조를 도입했습니다. LX2Crypto V1.0은 AES 기반 대칭키 암호화와 SHA 계열 해시 함수를 적용하여 사용자 정보, 학습 이력, 인증 데이터 등 주요 정보를 내부 레벨에서 보호합니다.</p>
+                </section>
+
+                <section class="article-section" id="section-verification">
+                    <h2>국가 암호모듈 검증 대응 구조</h2>
+                    <p>LX2Crypto는 단순한 암호화 기능을 넘어 국가정보원(NIS) 암호모듈 검증제도에 대응 가능한 형태로 설계되었습니다.</p>
+                    <p>SHA2·SHA3 해시 알고리즘, HMAC 메시지 인증, CMAC 블록 암호 인증 등 국제표준 암호 알고리즘을 기반으로 구성되어 있으며, 향후 KISA와 TTA 검증 절차를 거쳐 공공부문 보안요건에도 대응할 수 있도록 준비 중입니다.</p>
+                    <p>이를 통해 LX2는 공공기관 납품 프로젝트에서도 별도 보안 모듈 구매 없이 자체 검증 가능한 보안 인프라를 제공하게 됩니다.</p>
+                </section>
+
+                <section class="article-section" id="section-balance">
+                    <h2>보안과 효율성의 균형</h2>
+                    <p>LX2Crypto V1.0의 가장 큰 특징은 보안성과 효율성의 공존입니다. 내부 암호화를 통해 데이터 처리 과정의 속도를 유지하고, 모듈화 설계로 유지보수와 확장을 용이하게 하며, 클라우드 환경에서도 동일하게 적용되어 멀티테넌시(Multi-Tenancy) 환경의 데이터 격리 보안을 강화합니다.</p>
+                </section>
+
+                <section class="article-section" id="section-roadmap">
+                    <h2>LX2의 보안 로드맵</h2>
+                    <p>LX2는 이번 자체 암호모듈 개발을 시작으로, 플랫폼 전반에 걸친 보안 체계 고도화 로드맵을 본격화할 예정입니다.</p>
+                    <p>OTP 이중 인증, 세션 무결성 강화, 관리자 접근제어 고도화, 통합 보안 모니터링 등의 조치를 통해 신뢰 가능한 학습관리시스템(LMS)을 위한 핵심 기반을 마련할 것입니다.</p>
+                </section>
+
+                <div style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid #e9ecef;">
+                    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                        <span style="background: #f8f9fa; color: #4169E1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.875rem; font-weight: 500;">#LX2Crypto</span>
+                        <span style="background: #f8f9fa; color: #4169E1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.875rem; font-weight: 500;">#암호모듈</span>
+                        <span style="background: #f8f9fa; color: #4169E1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.875rem; font-weight: 500;">#보안강화</span>
+                        <span style="background: #f8f9fa; color: #4169E1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.875rem; font-weight: 500;">#국가검증</span>
+                        <span style="background: #f8f9fa; color: #4169E1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.875rem; font-weight: 500;">#KISA</span>
+                        <span style="background: #f8f9fa; color: #4169E1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.875rem; font-weight: 500;">#TTA</span>
+                    </div>
+                </div>
+
+                <div class="article-footer">
+                    <a href="dev-update.html" class="back-button">← 개발 업데이트로 돌아가기</a>
+                </div>
+                </article>
+
+                <aside class="table-of-contents">
+                    <div class="toc-header"><h3>목차</h3></div>
+                    <nav class="toc-nav">
+                        <a href="#section-intro" class="toc-link">LX2Crypto V1.0 개발 추진</a>
+                        <a href="#section-internal" class="toc-link">내부 암호화 구조로 전환</a>
+                        <a href="#section-verification" class="toc-link">국가 암호모듈 검증 대응</a>
+                        <a href="#section-balance" class="toc-link">보안과 효율성의 균형</a>
+                        <a href="#section-roadmap" class="toc-link">LX2의 보안 로드맵</a>
+                    </nav>
+                </aside>
+            </div>
+        </main>
+    <script src="articles-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

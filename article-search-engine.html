@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>통합 검색엔진 - LX2 블로그</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <div class="version-badge" id="version-badge">v2.0.0</div>
+                <a href="index.html" class="logo-link">
+                    <img src="assets/logo_lx2.png" alt="LX2 Logo" class="sidebar-logo-img">
+                </a>
+            </div>
+            <h2 class="sidebar-title">블로그</h2>
+            <nav class="sidebar-nav">
+                <a href="index.html" class="sidebar-item" data-page="index">
+                    홈
+                </a>
+                <a href="insights.html" class="sidebar-item" data-page="insights">
+                    AI 교육기술
+                </a>
+                <a href="features.html" class="sidebar-item" data-page="features">
+                    사용자 중심 학습관리
+                </a>
+                <a href="portfolio.html" class="sidebar-item" data-page="portfolio">
+                    디테일한 교육관리
+                </a>
+                <a href="tips.html" class="sidebar-item active" data-page="tips">
+                    가성비의 전문 솔루션
+                </a>
+                <a href="newsroom.html" class="sidebar-item" data-page="newsroom">
+                    뉴스룸
+                </a>
+                <a href="dev-update.html" class="sidebar-item" data-page="dev-update">
+                    개발 업데이트
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Content Area -->
+        <main class="content">
+            <div class="search-box">
+                <img src="assets/돋보기.png" alt="검색" class="search-icon">
+                <input type="text" placeholder="검색" class="search-input">
+            </div>
+
+            <div class="article-layout">
+                <!-- Article Header -->
+                <article class="article-detail">
+                <div class="article-header">
+                    <span class="article-badge">솔루션</span>
+                    <div style="margin: 2rem 0; text-align: center;">
+                        <img src="assets/thumbnails/검색엔진.png" alt="통합 검색 엔진" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+                    </div>
+                    <h1 class="article-detail-title">정보도 이렇게 빠르게 찾을 수 있다고요?</h1>
+                    <p class="article-meta">2025년 10월 30일 · LX2</p>
+                </div>
+
+                <!-- Main Introduction -->
+                <section class="article-section" id="section-transformation">
+                    <h2>LX2가 만든 '원하는 정보를 더 빠르게 찾는' 경험</h2>
+                    <p>교육 사이트에서 가장 많이 듣는 말 중 하나가 있습니다. "찾고 싶은 과정이 있는데 어디에 있나요?" 메뉴를 일일이 클릭하거나 비슷한 이름의 과정을 여러 번 살펴보는 건 생각보다 큰 시간 낭비죠.</p>
+                    <p>그래서 LX2는 '검색'에 집중했습니다. 필요한 정보를 빠르고 정확하게 찾을 수 있는 통합 검색엔진을 구축했습니다. 검색은 이제 단순한 기능이 아니라, 사용자의 관심과 학습 흐름을 보여주는 '운영의 나침반'이 되었습니다.</p>
+                </section>
+
+                <!-- Solution 1 -->
+                <section class="article-section" id="section-solution1">
+                    <h2><span class="section-number">1</span> 검색창 하나로 모든 콘텐츠 탐색</h2>
+                    <p>통합 검색엔진은 사이트 전반의 데이터를 연결해, 과정명·분류·강사명·태그 등 다양한 조건을 한 번에 검색할 수 있습니다.</p>
+                    
+                    <h3>전체 사이트 통합 검색</h3>
+                    <p>교육신청, 자료실, 커뮤니티까지 여러 메뉴를 오가던 복잡한 과정이 이제 한 화면으로 정리되었죠. 검색창 하나로 '사이트 전체를 탐색하는 경험'을 제공합니다. 사용자는 여러 메뉴를 이동할 필요 없이 한 번의 검색으로 원하는 정보를 모두 찾을 수 있어요.</p>
+
+                    <h3>다양한 검색 조건 지원</h3>
+                    <p>과정명, 분류, 강사명, 태그 등 다양한 조건으로 검색할 수 있습니다. 예를 들어, "Python"이라고 검색하면 Python 관련 과정, 자료, 커뮤니티 게시글까지 모두 찾아집니다.</p>
+
+                    <h3>정확한 검색 결과 제공</h3>
+                    <p>검색 결과는 관련도 순으로 정렬되어 가장 관련성 높은 결과가 먼저 표시됩니다. 사용자가 원하는 정보를 빠르게 찾을 수 있도록 최적화되어 있어요.</p>
+                </section>
+
+                <!-- Solution 2 -->
+                <section class="article-section" id="section-solution2">
+                    <h2><span class="section-number">2</span> 자동 추천으로 더 간편하게</h2>
+                    <p>검색창에 글자를 입력하는 순간, 관련 키워드와 인기 검색어가 자동으로 제안됩니다.</p>
+
+                    <h3>실시간 검색어 추천</h3>
+                    <p>사용자는 일일이 입력할 필요 없이 추천 목록에서 바로 선택해 원하는 정보를 확인할 수 있죠. 검색어를 입력하는 동안 자동으로 관련 키워드가 제안되어, 오타를 방지하고 빠르게 검색할 수 있어요.</p>
+
+                    <h3>인기 검색어 및 최근 검색</h3>
+                    <p>특히, 최근 검색한 키워드나 많이 조회된 교육과정이 함께 표시되어 '찾는 과정'에 더 빨리 도달할 수 있습니다. 사용자가 자주 찾는 과정이나 인기 있는 과정이 자동으로 추천되어 더 빠르게 원하는 정보를 찾을 수 있어요.</p>
+
+                    <h3>자동완성 기능</h3>
+                    <p>검색어를 입력하는 동안 자동완성 기능이 작동하여, 사용자가 원하는 검색어를 빠르게 선택할 수 있습니다. 이렇게 하면 오타를 방지하고 정확한 검색 결과를 얻을 수 있어요.</p>
+                </section>
+
+                <!-- Solution 3 -->
+                <section class="article-section" id="section-solution3">
+                    <h2><span class="section-number">3</span> 운영 효율을 높이는 검색 통계</h2>
+                    <p>검색은 단순히 사용자의 편의를 위한 기능을 넘어 운영자에게는 중요한 데이터가 됩니다.</p>
+
+                    <h3>검색 통계 분석</h3>
+                    <p>어떤 키워드가 가장 많이 검색되었는지, 어떤 과정이 가장 자주 클릭되었는지를 통계로 확인할 수 있습니다. 운영자는 이 데이터를 통해 사용자들이 무엇을 찾고 있는지 파악할 수 있어요.</p>
+
+                    <h3>수요 파악 및 기획 방향 설정</h3>
+                    <p>이 데이터를 기반으로 운영자는 수요가 높은 과정을 파악하고 다음 교육 기획 방향까지 예측할 수 있죠. 어떤 주제의 교육이 인기 있는지, 어떤 키워드로 검색하는지 등을 분석하여 효과적인 교육 기획이 가능합니다.</p>
+                </section>
+
+                <!-- Closing -->
+                <section class="article-section" id="section-closing">
+                    <h2>LX2가 만드는 차이는 '속도'입니다</h2>
+                    <p>LX2의 통합 검색엔진은 사용자가 원하는 정보를 빠르고 정확하게 찾을 수 있도록 돕습니다. 메뉴를 일일이 클릭하거나 여러 번 검색해야 했던 불편함이 이제는 검색창 하나로 해결되고, 자동 추천 기능으로 더 빠르게 원하는 정보를 찾을 수 있게 되었습니다.</p>
+                    <p>이제는 정보도 LX2와 함께 더 빠르게, 더 정확하게 찾아 보세요.</p>
+                </section>
+
+                <!-- Back Button -->
+                <div class="article-footer">
+                    <a href="tips.html" class="back-button">← 목록으로 돌아가기</a>
+                </div>
+                </article>
+
+                <!-- Table of Contents -->
+                <aside class="table-of-contents">
+                    <div class="toc-header">
+                        <h3>목차</h3>
+                    </div>
+                    <nav class="toc-nav">
+                        <a href="#section-transformation" class="toc-link">LX2가 만든 '원하는 정보를 더 빠르게 찾는' 경험</a>
+                        <a href="#section-solution1" class="toc-link">검색창 하나로 모든 콘텐츠 탐색</a>
+                        <a href="#section-solution2" class="toc-link">자동 추천으로 더 간편하게</a>
+                        <a href="#section-solution3" class="toc-link">운영 효율을 높이는 검색 통계</a>
+                        <a href="#section-closing" class="toc-link">LX2가 만드는 차이는 '속도'입니다</a>
+                    </nav>
+                </aside>
+            </div>
+        </main>
+
+
+    <script src="articles-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
